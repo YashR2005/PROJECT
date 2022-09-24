@@ -2,7 +2,7 @@
 # USAGE
 
 # python Helmet-detection.py --output output/my.avi --yolo yolo-coco
-pip install -r requirements.txt
+pip freeze > requirements.txt
 # import the necessary packages
 import numpy as np
 import argparse
